@@ -19,7 +19,7 @@ public class SaveManager {
         try {
             FileOutputStream fileOutput = context.openFileOutput(FILENAME, Context.MODE_PRIVATE);
             OutputStreamWriter osw = new OutputStreamWriter(fileOutput);
-            osw.write("Something went wrong, and this file was not overwritten");
+            osw.write("I couldn't get your save. Either you haven't granted me root permission, or you don't have clicker heroes installed. If neither of these is the case, then please send a reddit PM to Hazzard13");
             osw.close();
         } catch (Exception e) {
             Toast.makeText(context, "Failed to create file", Toast.LENGTH_LONG).show();
