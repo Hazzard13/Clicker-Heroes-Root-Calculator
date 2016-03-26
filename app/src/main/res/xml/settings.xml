@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+    android:title="Play Style"
+    android:key="playStyle"
+    android:entries="@array/playStyle"
+    android:entryValues="@array/playStyle"
+    android:defaultValue="Idle"
+    ></ListPreference>
+</PreferenceScreen>
